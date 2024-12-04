@@ -22,5 +22,3 @@ AUTH0_JWK_URI="https://neu.us.auth0.com/.well-known/jwks.json"
 AUTH0_AUDIENCE="https://api.todos"
 AUTH0_ISSUER="https://neu.us.auth0.com/"
 ```
-
-# AI-Fusion-100-hrs-project-JS
