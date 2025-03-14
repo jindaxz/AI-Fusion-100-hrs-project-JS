@@ -1,12 +1,20 @@
 # AI Fusion
 
-## Accessibility
+# Accessibility
 - in /lighthouse-report folder
 
-## React Testing
+# React Testing
 - in /client/src/tests
 
-## Client .env
+# Install
+cd client
+npm install
+
+cd ../api
+npm install
+
+
+# Client .env
 ```
 REACT_APP_API_URL=http://localhost:8000
 REACT_APP_AUTH0_DOMAIN=neu.us.auth0.com
@@ -15,10 +23,19 @@ REACT_APP_AUTH0_AUDIENCE=https://api.todos
 REACT_APP_JWT_NAMESPACE=https://api.todos
 ```
 
-## API .env
+# API .env
 ```
 DATABASE_URL="mysql://root:123456@localhost:3306/tododb"
 AUTH0_JWK_URI="https://neu.us.auth0.com/.well-known/jwks.json"
 AUTH0_AUDIENCE="https://api.todos"
 AUTH0_ISSUER="https://neu.us.auth0.com/"
 ```
+
+
+# init db
+npx prisma db push
+
+
+
+# start
+npm start
